@@ -37,23 +37,23 @@ Click it to choose a skin and apply it.
 Screenshots
 -----------
 
-## Cafe
+### Cafe
 
 [![HN Cafe Skin][cafe]][cafe]
 
-## London
+### London
 
 [![HN London Skin][london]][london]
 
-## Nox
+### Nox
 
 [![HN Nox Skin][nox]][nox]
 
-## Teletype
+### Teletype
 
 [![HN Teletype Skin][teletype]][teletype]
 
-## Terminal
+### Terminal
 
 [![HN Terminal Skin][terminal]][terminal]
 
