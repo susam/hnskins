@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.1.0
+// @version     0.2.0.dev.2026-02-28
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -93,12 +93,6 @@
       }
       table#hnmain {
         background: #fff;
-      }
-      table#hnmain table:first-of-type {
-        padding: 0.5em !important;
-      }
-      table:first-of-type tr:nth-of-type(2) {
-        height: 1em !important;
       }
       td, span, div, font, input {
         font-family: georgia, times, serif !important;
@@ -272,7 +266,7 @@
     const style = document.createElement('style')
     style.className = 'skStyle spacing'
     style.textContent = `
-      table:first-of-type tr:nth-of-type(2), .spacer {
+      .spacer {
         height: 1.25em !important;
       }
       td, span, div, font, input {
@@ -295,6 +289,9 @@
       }
       .toptext, .comment {
         line-height: 1.5em;
+      }
+      .reply p {
+        margin-bottom: 0.5em !important;
       }
     `
     window.document.head.append(style)
