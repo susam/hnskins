@@ -20,7 +20,7 @@ to install the HN Skins userscript:
 [GM]: https://www.greasespot.net/
 [TM]: https://www.tampermonkey.net/
 [VM]: https://violentmonkey.github.io/
-[HNSK]: https://github.com/susam/hnskins/raw/hnskins.user.js
+[HNSK]: https://github.com/susam/hnskins/raw/main/hnskins.user.js
 
 
 Choose A Skin
