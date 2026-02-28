@@ -1,40 +1,47 @@
 HN Skins
 ========
 
+***Read Hacker News in style!***
+
 **HN Skins** is a browser userscript that adds custom themes to Hacker
-News.
+News (HN).
 
 [![Select HN Skin][select]][select]
 
 **[Install Now][install]**
 
 Note: To use the HN Skins userscript, you must first install a
-userscript manager such as [Greasemonkey][GM], [Tampermonkey][TM] or
-[Violentmonkey][VM] into your web browser.  After you have installed a
-userscript manager, visit the above 'Install Now' to install the HN
-Skins userscript.
+userscript manager such as [Greasemonkey][gm], [Tampermonkey][tm] or
+[Violentmonkey][vm] into your web browser and then click the install
+link above.
 
-[GM]: https://www.greasespot.net/
-[TM]: https://www.tampermonkey.net/
-[VM]: https://violentmonkey.github.io/
+[gm]: https://www.greasespot.net/
+[tm]: https://www.tampermonkey.net/
+[vm]: https://violentmonkey.github.io/
 [install]: https://github.com/susam/hnskins/raw/main/hnskins.user.js
 
 
 Choose A Skin
 -------------
 
-After you [install HN Skins][install], visit [news.ycombinator.com][hn]
-and observe the top navigation panel.  A new link called 'skins'
-appears.  Click it to choose a skin and apply it.
+After you [install HN Skins][install], visit [news.ycombinator.com][hn].
+A new link called 'skins' appears in the top navigation panel.
+
+[![Navigation panel of HN ][nav]][nav]
+
+Click the 'skins' link and select a skin of your choice.
 
 [![Select HN Skin][select]][select]
 
 [hn]: https://news.ycombinator.com/
+[nav]: https://susam.github.io/blob/img/hnskins/nav.png
 [select]: https://susam.github.io/blob/img/hnskins/select.png
 
 
 Screenshots
 -----------
+
+This section presents a few screenshots of the various skins available.
 
 ### Cafe
 

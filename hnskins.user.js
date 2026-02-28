@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        HN Skins
 // @version     0.1.0
-// @description Embellish your HN experience
+// @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
 // ==/UserScript==
@@ -307,9 +307,7 @@
       dialog {
         background: #fec;
         border: thick double #653;
-        min-width: 20em;
-        max-width: 40em;
-        padding: 1em;
+        padding: 1.5em;
       }
       dialog * {
         color: #431;
@@ -317,7 +315,7 @@
         font-size: medium;
       }
       dialog h1 {
-        font-size: 1.25em;
+        font-size: 1.5em;
         margin: 0;
         text-align: center;
       }
@@ -334,10 +332,12 @@
         background: #cb9;
       }
       #skinOptions {
-        margin: 1em 0;
         display: grid;
-        gap: 1em;
-        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-auto-flow: column;
+        gap: 1em 2em;
+        margin: 1.5em 0;
       }
     `
     window.document.head.append(style)
@@ -379,7 +379,7 @@
     document.body.append(dialog)
 
     const h1 = document.createElement('h1')
-    h1.textContent = 'Select HN Skin'
+    h1.textContent = 'Select Skin'
     dialog.append(h1)
 
     const form = document.createElement('form')
