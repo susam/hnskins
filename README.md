@@ -4,6 +4,10 @@ HN Skins
 **HN Skins** is a browser userscript that adds custom themes to Hacker
 News.
 
+[![Select HN Skin][select]][select]
+
+**[Install Now][HNSK]**
+
 
 Install HN Skins
 ----------------
