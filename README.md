@@ -1,7 +1,8 @@
 HN Skins
 ========
 
-**HN Skins** is a web browser userscript that adds various themes to HN.
+*HN Skins* is a browser userscript that adds custom themes to Hacker
+News.
 
 
 Install HN Skins
@@ -20,6 +21,47 @@ to install the HN Skins userscript:
 [TM]: https://www.tampermonkey.net/
 [VM]: https://violentmonkey.github.io/
 [HNSK]: https://github.com/susam/hnskins/raw/hnskins.user.js
+[HN] https://news.ycombinator.com/
+
+
+Choose A Skin
+-------------
+
+After you install HN skin, visit [news.ycombinator.com][HN] and
+observe the top navigation panel.  A new link called 'skins' appears.
+Click it to choose a skin and apply it.
+
+[select]: https://susam.github.io/blob/img/hnskins/select.png
+
+
+Screenshots
+-----------
+
+## Cafe
+
+[![HN Cafe Skin][cafe]][cafe]
+
+## London
+
+[![HN London Skin][london]][london]
+
+## Nox
+
+[![HN Nox Skin][nox]][nox]
+
+## Teletype
+
+[![HN Teletype Skin][teletype]][teletype]
+
+## Terminal
+
+[![HN Terminal Skin][terminal]][terminal]
+
+[cafe]: https://susam.github.io/blob/img/hnskins/cafe.png
+[london]: https://susam.github.io/blob/img/hnskins/london.png
+[nox]: https://susam.github.io/blob/img/hnskins/nox.png
+[teletype]: https://susam.github.io/blob/img/hnskins/teletype.png
+[terminal]: https://susam.github.io/blob/img/hnskins/terminal.png
 
 
 Licence

@@ -379,7 +379,7 @@
     document.body.append(dialog)
 
     const h1 = document.createElement('h1')
-    h1.textContent = 'Select Skin'
+    h1.textContent = 'Select HN Skin'
     dialog.append(h1)
 
     const form = document.createElement('form')
