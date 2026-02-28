@@ -221,6 +221,9 @@
       .topsel {
         font-weight: bold;
       }
+      .votearrow {
+        filter: sepia(1) hue-rotate(90deg) saturate(3);
+      }
     `
     spacingStyle()
     window.document.head.append(style)
