@@ -1,4 +1,4 @@
-lint:
+checks:
 	npx standard
 
 deps:

@@ -27,3 +27,35 @@ Link Screenshot
 - From menu, select Edit > Stroke Selection:
   - Line width: 6.0 (default)
   - Join style: curved (middle one)
+
+
+Release Checklist
+-----------------
+
+ 1. Update version in [hnskins.user.js][].
+ 2. Update copyright in [LICENCE.md][].
+ 3. Update [CHANGES.md][].
+ 4. Commit and push:
+
+    ```sh
+    make checks
+    git status
+    git add -p
+
+    VER=<VER>
+    git commit -em "Set version to $VER"
+    git tag $VER -m "HN Skins $VER"
+    git push origin main $VER
+
+    git remote add cb https://codeberg.org/susam/hnskins.git
+    git push cb main
+    git push cb --tags
+    ```
+
+ 5. Go to GitHub and make a release.
+ 6. Go to Codeberg and make a release.
+ 7. Go to susam.net source and write a release page.
+
+[hnskins.user.js]: ../hnskins.user.js
+[LICENCE.md]: ../LICENCE.md
+[CHANGES.md]: ../CHANGES.md
