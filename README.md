@@ -21,16 +21,18 @@ to install the HN Skins userscript:
 [TM]: https://www.tampermonkey.net/
 [VM]: https://violentmonkey.github.io/
 [HNSK]: https://github.com/susam/hnskins/raw/hnskins.user.js
-[HN] https://news.ycombinator.com/
 
 
 Choose A Skin
 -------------
 
-After you install HN skin, visit [news.ycombinator.com][HN] and
+After you install HN skin, visit [news.ycombinator.com][hn] and
 observe the top navigation panel.  A new link called 'skins' appears.
 Click it to choose a skin and apply it.
 
+[![Select HN Skin][select]][select]
+
+[hn]: https://news.ycombinator.com/
 [select]: https://susam.github.io/blob/img/hnskins/select.png
 
 
