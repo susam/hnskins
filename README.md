@@ -6,33 +6,26 @@ News.
 
 [![Select HN Skin][select]][select]
 
-**[Install Now][HNSK]**
+**[Install Now][install]**
 
-
-Install HN Skins
-----------------
-
-To use the HN Skins userscript, you must first install a userscript
-manager such as [Greasemonkey][GM], [Tampermonkey][TM] or
-[Violentmonkey][VM] into your web browser.
-
-After you have install a userscript manager, visit the following link
-to install the HN Skins userscript:
-
-**[Install HN Skins][HNSK]**
+Note: To use the HN Skins userscript, you must first install a
+userscript manager such as [Greasemonkey][GM], [Tampermonkey][TM] or
+[Violentmonkey][VM] into your web browser.  After you have installed a
+userscript manager, visit the above 'Install Now' to install the HN
+Skins userscript.
 
 [GM]: https://www.greasespot.net/
 [TM]: https://www.tampermonkey.net/
 [VM]: https://violentmonkey.github.io/
-[HNSK]: https://github.com/susam/hnskins/raw/main/hnskins.user.js
+[install]: https://github.com/susam/hnskins/raw/main/hnskins.user.js
 
 
 Choose A Skin
 -------------
 
-After you install HN skin, visit [news.ycombinator.com][hn] and
-observe the top navigation panel.  A new link called 'skins' appears.
-Click it to choose a skin and apply it.
+After you [install HN Skins][install], visit [news.ycombinator.com][hn]
+and observe the top navigation panel.  A new link called 'skins'
+appears.  Click it to choose a skin and apply it.
 
 [![Select HN Skin][select]][select]
 
