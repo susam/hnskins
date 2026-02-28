@@ -48,7 +48,6 @@
       }
       td, span, div, font, input {
         font-family: courier, monospace !important;
-        font-size: medium !important;
       }
       input, textarea {
         background: #fc9;
@@ -119,9 +118,6 @@
       .hnuser font { /* green user */
         color: #060;
       }
-      .reply {
-        padding-bottom: 0;
-      }
       #bigbox {
         margin-top: 0.5em;
       }
@@ -161,7 +157,6 @@
       }
       td, span, div, font, input {
         font-family: courier, monospace !important;
-        font-size: medium !important;
       }
       img {
         filter: saturate(0);
@@ -207,7 +202,6 @@
       }
       td, span, div, font, input {
         font-family: courier, monospace !important;
-        font-size: medium !important;
       }
       img {
         filter: hue-rotate(75deg);;
@@ -257,9 +251,6 @@
       table#hnmain {
         background: #000;
       }
-      td, span, div, font, input {
-        font-size: medium !important;
-      }
       img {
         filter: saturate(0);
       }
@@ -281,11 +272,14 @@
     const style = document.createElement('style')
     style.className = 'skStyle spacing'
     style.textContent = `
-      .subtext {
-        padding-top: 0.5em;
+      table:first-of-type tr:nth-of-type(2), .spacer {
+        height: 1.25em !important;
       }
-      .toptext {
-        padding-top: 0.5em;
+      td, span, div, font, input {
+        font-size: medium !important;
+      }
+      p {
+        margin: 1em 0 !important;
       }
       .pagetop {
         line-height: 1.5em;
@@ -293,11 +287,14 @@
       .pagetop b {
         margin-right: 1em;
       }
-      table:first-of-type tr:nth-of-type(2), .spacer {
-        height: 1.25em !important;
+      .subtext {
+        padding-top: 0.5em;
       }
-      .reply {
-        padding: 0.5em 0;
+      .toptext {
+        padding-top: 0.5em;
+      }
+      .toptext, .comment {
+        line-height: 1.5em;
       }
     `
     window.document.head.append(style)
