@@ -21,8 +21,8 @@ link above.
 [install]: https://github.com/susam/hnskins/raw/main/hnskins.user.js
 
 
-Choose A Skin
--------------
+Select Skin
+-----------
 
 After you [install HN Skins][install], visit [news.ycombinator.com][hn].
 A new link called 'skins' appears in the top navigation panel.
@@ -54,20 +54,20 @@ This section presents a few screenshots of the various skins available.
 
 [![HN London Skin][london]][london]
 
-### Nox
+### Midnight
 
-[![HN Nox Skin][nox]][nox]
+[![HN Midnight Skin][midnight]][midnight]
 
 ### Terminal
 
 [![HN Terminal Skin][terminal]][terminal]
 
-[select]: https://susam.github.io/blob/img/hnskins/0.2.0/select.png
-[cafe]: https://susam.github.io/blob/img/hnskins/0.2.0/cafe.png
-[courier]: https://susam.github.io/blob/img/hnskins/0.2.0/courier.png
-[london]: https://susam.github.io/blob/img/hnskins/0.2.0/london.png
-[nox]: https://susam.github.io/blob/img/hnskins/0.2.0/nox.png
-[terminal]: https://susam.github.io/blob/img/hnskins/0.2.0/terminal.png
+[select]: https://susam.github.io/blob/img/hnskins/0.3.0/select.png
+[cafe]: https://susam.github.io/blob/img/hnskins/0.3.0/cafe.png
+[courier]: https://susam.github.io/blob/img/hnskins/0.3.0/courier.png
+[london]: https://susam.github.io/blob/img/hnskins/0.3.0/london.png
+[midnight]: https://susam.github.io/blob/img/hnskins/0.3.0/midnight.png
+[terminal]: https://susam.github.io/blob/img/hnskins/0.3.0/terminal.png
 
 
 Licence

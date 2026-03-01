@@ -33,14 +33,11 @@ Skins Screenshots
 -----------------
 
 ```
-# select, cafe, teletype, terminal
-osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 660}'
+# select, cafe, teletype, terminal, midnight
+osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 670}'
 
 # london
 osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 700}'
-
-# nox
-osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 680}'
 ```
 
 
@@ -52,7 +49,7 @@ Release Checklist
  3. Create a new directory for the screenshots:
 
     ```sh
-    VER=
+    VER=0.3.0
     mkdir ~/git/blob/img/hnskins/"$VER"/
     open ~/git/blob/img/hnskins/"$VER"/
     ```
@@ -74,7 +71,7 @@ Release Checklist
     git status
     git add -p
 
-    VER=<VER>
+    VER=0.3.0
     git commit -em "Set version to $VER"
     git tag $VER -m "HN Skins $VER"
     git push origin main $VER

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.2.0
+// @version     0.3.0.dev1
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -10,7 +10,7 @@
     Cafe: skCafe,
     Courier: skCourier,
     London: skLondon,
-    Nox: skNox,
+    Midnight: skMidnight,
     Terminal: skTerminal,
     None: null
   }
@@ -160,9 +160,9 @@
     window.document.head.append(style)
   }
 
-  function skNox () {
+  function skMidnight () {
     const style = document.createElement('style')
-    style.className = 'skStyle skNox'
+    style.className = 'skStyle skMidnight'
     style.textContent = `
       body {
         background: #111;

@@ -7,6 +7,7 @@ Changelog
 ### Changed
 
 - Rename Teletype to Courier.
+- Rename Nox to Midnight.
 - Use `monospace` font instead of `courier` for Cafe and Terminal.
 
 
