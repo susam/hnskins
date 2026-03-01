@@ -6,7 +6,6 @@ Changelog
 
 ### Changed
 
-- Reduce vertical space between navigation panel and first item.
 - Reduce vertical space between 'reply' link and next comment.
 
 

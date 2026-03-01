@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.2.0.dev.2026-02-28
+// @version     0.2.0.dev2
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -106,14 +106,8 @@
       .topsel {
         font-weight: bold;
       }
-      .spacer {
-        height: 1.5em;
-      }
       .hnuser font { /* green user */
         color: #060;
-      }
-      #bigbox {
-        margin-top: 0.5em;
       }
     `
     spacingStyle()
@@ -292,6 +286,9 @@
       }
       .reply p {
         margin-bottom: 0.5em !important;
+      }
+      #bigbox > td {
+        padding-top: 0.5em;
       }
     `
     window.document.head.append(style)
