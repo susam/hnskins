@@ -34,8 +34,7 @@ Click the 'skins' link and select a skin of your choice.
 [![Select HN Skin][select]][select]
 
 [hn]: https://news.ycombinator.com/
-[nav]: https://susam.github.io/blob/img/hnskins/nav.png
-[select]: https://susam.github.io/blob/img/hnskins/select.png
+[nav]: https://susam.github.io/blob/img/hnskins/0.1.0/nav.png
 
 
 Screenshots
@@ -63,11 +62,12 @@ This section presents a few screenshots of the various skins available.
 
 [![HN Terminal Skin][terminal]][terminal]
 
-[cafe]: https://susam.github.io/blob/img/hnskins/cafe.png
-[london]: https://susam.github.io/blob/img/hnskins/london.png
-[nox]: https://susam.github.io/blob/img/hnskins/nox.png
-[teletype]: https://susam.github.io/blob/img/hnskins/teletype.png
-[terminal]: https://susam.github.io/blob/img/hnskins/terminal.png
+[select]: https://susam.github.io/blob/img/hnskins/0.2.0/select.png
+[cafe]: https://susam.github.io/blob/img/hnskins/0.2.0/cafe.png
+[london]: https://susam.github.io/blob/img/hnskins/0.2.0/london.png
+[nox]: https://susam.github.io/blob/img/hnskins/0.2.0/nox.png
+[teletype]: https://susam.github.io/blob/img/hnskins/0.2.0/teletype.png
+[terminal]: https://susam.github.io/blob/img/hnskins/0.2.0/terminal.png
 
 
 Licence

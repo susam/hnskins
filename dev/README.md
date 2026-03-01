@@ -29,13 +29,45 @@ Link Screenshot
   - Join style: curved (middle one)
 
 
+Skins Screenshots
+-----------------
+
+```
+# select, cafe, teletype, terminal
+osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 660}'
+
+# london
+osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 700}'
+
+# nox
+osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 680}'
+```
+
+
 Release Checklist
 -----------------
 
- 1. Update version in [hnskins.user.js][].
- 2. Update copyright in [LICENCE.md][].
- 3. Update [CHANGES.md][].
- 4. Commit and push:
+ 1. Update HN Skins code in Chrome Tampermonkey manually.
+ 2. Take screenshots using the commands in previous section.
+ 3. Create a new directory for the screenshots:
+
+    ```sh
+    VER=
+    mkdir ~/git/blob/img/hnskins/"$VER"/
+    open ~/git/blob/img/hnskins/"$VER"/
+    ```
+
+ 4. Publish screenshots:
+
+    ```sh
+    cd ~/git/blob/ && make pub
+    ```
+
+ 5. Update version in [hnskins.user.js][].
+ 6. Update copyright in [LICENCE.md][].
+ 7. Update [CHANGES.md][].
+ 8. Update screenshot links (except link screenshot) in [README.md][].
+ 8. Commit and push:
 
     ```sh
     make checks
@@ -52,10 +84,11 @@ Release Checklist
     git push cb --tags
     ```
 
- 5. Go to GitHub and make a release.
- 6. Go to Codeberg and make a release.
- 7. Go to susam.net source and write a release page.
+ 9. Go to GitHub and make a release.
+10. Go to Codeberg and make a release.
+11. Go to susam.net source and write a release page.
 
 [hnskins.user.js]: ../hnskins.user.js
 [LICENCE.md]: ../LICENCE.md
 [CHANGES.md]: ../CHANGES.md
+[README.md]: ../README.md
