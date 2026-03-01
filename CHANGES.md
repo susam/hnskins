@@ -8,6 +8,7 @@ Changelog
 
 - Reduce vertical space between 'reply' link and next comment.
 - Arrange skin options alphabetically by name.
+- Use a shade of green for the navigation bar in Terminal skin.
 
 
 0.1.0 (2026-02-28)

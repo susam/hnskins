@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.2.0.dev2
+// @version     0.2.0
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -228,7 +228,7 @@
         color: #363 !important;
       }
       td[bgcolor] {
-        background: #111;
+        background: #030;
       }
       table#hnmain {
         background: #010;
