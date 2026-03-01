@@ -8,9 +8,9 @@
 (function () {
   const skins = {
     Cafe: skCafe,
+    Courier: skCourier,
     London: skLondon,
     Nox: skNox,
-    Teletype: skTeletype,
     Terminal: skTerminal,
     None: null
   }
@@ -54,6 +54,52 @@
       }
       .hnuser font { /* green user */
         color: #060 !important;
+      }
+      .topsel {
+        font-weight: bold;
+      }
+    `
+    spacingStyle()
+    window.document.head.append(style)
+  }
+
+  function skCourier () {
+    const style = document.createElement('style')
+    style.className = 'skStyle skCourier'
+    style.textContent = `
+      * a:visited {
+        color: #666 !important;
+      }
+      td[bgcolor] *, * a:link, td, span, div, font, input {
+        color: #000 !important;
+      }
+      .c5A, .c73 {
+        color: #666 !important;
+      }
+      .c88, .c9C {
+        color: #999 !important;
+      }
+      .cBE, .cDD {
+        color: #ccc !important;
+      }
+      td[bgcolor] {
+        background: #eee;
+        border: thin solid #666;
+      }
+      table#hnmain {
+        background: #fff;
+      }
+      td[bgcolor] * {
+        color: #000 !important;
+      }
+      td, span, div, font, input {
+        font-family: courier, monospace !important;
+      }
+      img {
+        filter: saturate(0);
+      }
+      .hnuser font { /* green user */
+        color: #060;
       }
       .topsel {
         font-weight: bold;
@@ -150,52 +196,6 @@
       }
       .hnuser font { /* green user */
         color: #3c3 !important;
-      }
-      .topsel {
-        font-weight: bold;
-      }
-    `
-    spacingStyle()
-    window.document.head.append(style)
-  }
-
-  function skTeletype () {
-    const style = document.createElement('style')
-    style.className = 'skStyle skTeletype'
-    style.textContent = `
-      * a:visited {
-        color: #666 !important;
-      }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
-        color: #000 !important;
-      }
-      .c5A, .c73 {
-        color: #666 !important;
-      }
-      .c88, .c9C {
-        color: #999 !important;
-      }
-      .cBE, .cDD {
-        color: #ccc !important;
-      }
-      td[bgcolor] {
-        background: #eee;
-        border: thin solid #666;
-      }
-      table#hnmain {
-        background: #fff;
-      }
-      td[bgcolor] * {
-        color: #000 !important;
-      }
-      td, span, div, font, input {
-        font-family: courier, monospace !important;
-      }
-      img {
-        filter: saturate(0);
-      }
-      .hnuser font { /* green user */
-        color: #060;
       }
       .topsel {
         font-weight: bold;

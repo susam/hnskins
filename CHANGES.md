@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.3.0 (UNRELEASED)
+------------------
+
+### Changed
+
+- Rename Teletype to Courier.
+
+
 0.2.0 (2026-03-01)
 ------------------
 

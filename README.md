@@ -46,6 +46,10 @@ This section presents a few screenshots of the various skins available.
 
 [![HN Cafe Skin][cafe]][cafe]
 
+### Courier
+
+[![HN Courier Skin][courier]][courier]
+
 ### London
 
 [![HN London Skin][london]][london]
@@ -54,19 +58,15 @@ This section presents a few screenshots of the various skins available.
 
 [![HN Nox Skin][nox]][nox]
 
-### Teletype
-
-[![HN Teletype Skin][teletype]][teletype]
-
 ### Terminal
 
 [![HN Terminal Skin][terminal]][terminal]
 
 [select]: https://susam.github.io/blob/img/hnskins/0.2.0/select.png
 [cafe]: https://susam.github.io/blob/img/hnskins/0.2.0/cafe.png
+[courier]: https://susam.github.io/blob/img/hnskins/0.2.0/courier.png
 [london]: https://susam.github.io/blob/img/hnskins/0.2.0/london.png
 [nox]: https://susam.github.io/blob/img/hnskins/0.2.0/nox.png
-[teletype]: https://susam.github.io/blob/img/hnskins/0.2.0/teletype.png
 [terminal]: https://susam.github.io/blob/img/hnskins/0.2.0/terminal.png
 
 
