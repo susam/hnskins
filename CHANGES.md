@@ -7,6 +7,7 @@ Changelog
 ### Changed
 
 - Rename Teletype to Courier.
+- Use `monospace` font instead of `courier` for Cafe and Terminal.
 
 
 0.2.0 (2026-03-01)

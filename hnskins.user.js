@@ -47,7 +47,7 @@
         color: #000 !important;
       }
       td, span, div, font, input {
-        font-family: courier, monospace !important;
+        font-family: monospace, monospace !important;
       }
       input, textarea {
         background: #fc9;
@@ -234,7 +234,7 @@
         background: #010;
       }
       td, span, div, font, input {
-        font-family: courier, monospace !important;
+        font-family: monospace, monospace !important;
       }
       img {
         filter: hue-rotate(75deg);;
