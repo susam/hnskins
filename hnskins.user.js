@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.3.0.dev1
+// @version     0.3.0.dev2
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -25,7 +25,7 @@
       * a:visited {
         color: #800 !important;
       }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
+      td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #400 !important;
       }
       .c5A, .c73 {
@@ -46,7 +46,7 @@
       td[bgcolor] * {
         color: #000 !important;
       }
-      td, span, div, font, input {
+      td, span, div, font, input, textarea {
         font-family: monospace, monospace !important;
       }
       input, textarea {
@@ -70,7 +70,7 @@
       * a:visited {
         color: #666 !important;
       }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
+      td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #000 !important;
       }
       .c5A, .c73 {
@@ -92,7 +92,7 @@
       td[bgcolor] * {
         color: #000 !important;
       }
-      td, span, div, font, input {
+      td, span, div, font, input, textarea {
         font-family: courier, monospace !important;
       }
       img {
@@ -119,7 +119,7 @@
       * a:visited {
         color: #555 !important;
       }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
+      td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #000 !important;
       }
       .c5A, .c73 {
@@ -140,7 +140,7 @@
       table#hnmain {
         background: #fff;
       }
-      td, span, div, font, input {
+      td, span, div, font, input, textarea {
         font-family: georgia, times, serif !important;
         font-size: large !important;
         color: #000;
@@ -170,7 +170,7 @@
       * a:visited {
         color: #aaa !important;
       }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
+      td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #ccc !important;
       }
       .c5A, .c73 {
@@ -215,7 +215,7 @@
       * a:visited {
         color: #3d3 !important;
       }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
+      td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #3f3 !important;
       }
       .c5A, .c73 {
@@ -233,7 +233,7 @@
       table#hnmain {
         background: #010;
       }
-      td, span, div, font, input {
+      td, span, div, font, input, textarea {
         font-family: monospace, monospace !important;
       }
       img {
@@ -263,7 +263,7 @@
       .spacer {
         height: 1.25em !important;
       }
-      td, span, div, font, input {
+      td, span, div, font, input, textarea {
         font-size: medium !important;
       }
       p {

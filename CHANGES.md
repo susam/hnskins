@@ -4,6 +4,10 @@ Changelog
 0.3.0 (UNRELEASED)
 ------------------
 
+### Added
+
+- Set font face and size for `<textarea>` elements too.
+
 ### Changed
 
 - Rename Teletype to Courier.
@@ -26,4 +30,4 @@ Changelog
 
 ### Added
 
-- Five skins: Cafe, London, Teletype, Terminal, Nox
+- Five skins: Cafe, London, Teletype, Terminal, Nox.
