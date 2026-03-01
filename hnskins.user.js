@@ -9,9 +9,9 @@
   const skins = {
     Cafe: skCafe,
     London: skLondon,
+    Nox: skNox,
     Teletype: skTeletype,
     Terminal: skTerminal,
-    Nox: skNox,
     None: null
   }
 
@@ -114,6 +114,51 @@
     window.document.head.append(style)
   }
 
+  function skNox () {
+    const style = document.createElement('style')
+    style.className = 'skStyle skNox'
+    style.textContent = `
+      body {
+        background: #111;
+      }
+      * a:visited {
+        color: #aaa !important;
+      }
+      td[bgcolor] *, * a:link, td, span, div, font, input {
+        color: #ccc !important;
+      }
+      .c5A, .c73 {
+        color: #999 !important;
+      }
+      .c88, .c9C {
+        color: #666 !important;
+      }
+      .cBE, .cDD {
+        color: #333 !important;
+      }
+      td[bgcolor] {
+        background: #333;
+      }
+      table#hnmain {
+        background: #000;
+      }
+      img {
+        filter: saturate(0);
+      }
+      input, textarea {
+        background: #000;
+      }
+      .hnuser font { /* green user */
+        color: #3c3 !important;
+      }
+      .topsel {
+        font-weight: bold;
+      }
+    `
+    spacingStyle()
+    window.document.head.append(style)
+  }
+
   function skTeletype () {
     const style = document.createElement('style')
     style.className = 'skStyle skTeletype'
@@ -205,51 +250,6 @@
       }
       .votearrow {
         filter: sepia(1) hue-rotate(90deg) saturate(3);
-      }
-    `
-    spacingStyle()
-    window.document.head.append(style)
-  }
-
-  function skNox () {
-    const style = document.createElement('style')
-    style.className = 'skStyle skNox'
-    style.textContent = `
-      body {
-        background: #111;
-      }
-      * a:visited {
-        color: #aaa !important;
-      }
-      td[bgcolor] *, * a:link, td, span, div, font, input {
-        color: #ccc !important;
-      }
-      .c5A, .c73 {
-        color: #999 !important;
-      }
-      .c88, .c9C {
-        color: #666 !important;
-      }
-      .cBE, .cDD {
-        color: #333 !important;
-      }
-      td[bgcolor] {
-        background: #333;
-      }
-      table#hnmain {
-        background: #000;
-      }
-      img {
-        filter: saturate(0);
-      }
-      input, textarea {
-        background: #000;
-      }
-      .hnuser font { /* green user */
-        color: #3c3 !important;
-      }
-      .topsel {
-        font-weight: bold;
       }
     `
     spacingStyle()
