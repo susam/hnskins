@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.3.0.dev2
+// @version     0.3.0.dev3
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -23,7 +23,7 @@
         background: #ffe;
       }
       * a:visited {
-        color: #800 !important;
+        color: #754 !important;
       }
       td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #400 !important;
@@ -117,7 +117,7 @@
         background: #eee;
       }
       * a:visited {
-        color: #555 !important;
+        color: #666 !important;
       }
       td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #000 !important;
@@ -168,7 +168,7 @@
         background: #111;
       }
       * a:visited {
-        color: #aaa !important;
+        color: #888 !important;
       }
       td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #ccc !important;
@@ -213,7 +213,7 @@
         background: #020;
       }
       * a:visited {
-        color: #3d3 !important;
+        color: #0b0 !important;
       }
       td[bgcolor] *, * a:link, td, span, div, font, input, textarea {
         color: #3f3 !important;
