@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.3.0.dev3
+// @version     0.3.0
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
