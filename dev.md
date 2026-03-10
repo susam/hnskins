@@ -5,7 +5,7 @@ Release Checklist
 -----------------
 
  1. Update HN Skins code in Chrome Tampermonkey manually.
- 2. Take screenshots using the commands in previous section.
+ 2. Take screenshots using the commands in the next section.
  3. Create a new directory for the screenshots:
 
     ```sh
@@ -55,10 +55,10 @@ Release Screenshots
 -------------------
 
 ```
-# select, cafe, teletype, terminal, midnight
+# Select, Cafe, Courier, Midnight, Terminal
 osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 670}'
 
-# london
+# London
 osascript -e 'tell app "Chrome" to set bounds of front window to {0, 0, 1200, 700}'
 ```
 
