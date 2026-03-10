@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        HN Skins
-// @version     0.3.0
+// @version     0.4.0
 // @description Read HN in style!
 // @author      Susam Pal
 // @match       https://news.ycombinator.com/*
@@ -39,6 +39,9 @@
       }
       td[bgcolor] {
         background: #fa3;
+      }
+      td[bgcolor="#000000"] {
+        background: #000;
       }
       table#hnmain {
         background: #fec;
@@ -85,6 +88,10 @@
       td[bgcolor] {
         background: #eee;
         border: thin solid #666;
+      }
+      td[bgcolor="#000000"] {
+        background: #000;
+        border: none;
       }
       table#hnmain {
         background: #fff;
@@ -133,6 +140,10 @@
       }
       td[bgcolor] {
         background: #333;
+      }
+      td[bgcolor="#000000"] {
+        background: #000;
+        height: 0.6em;
       }
       td[bgcolor] * {
         color: #fff !important;
@@ -185,6 +196,9 @@
       td[bgcolor] {
         background: #333;
       }
+      td[bgcolor="#000000"] {
+        background: #666;
+      }
       table#hnmain {
         background: #000;
       }
@@ -229,6 +243,9 @@
       }
       td[bgcolor] {
         background: #030;
+      }
+      td[bgcolor="#000000"] {
+        background: #666;
       }
       table#hnmain {
         background: #010;

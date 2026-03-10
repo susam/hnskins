@@ -1,6 +1,16 @@
 Changelog
 =========
 
+0.4.0 (2026-03-10)
+------------------
+
+### Fixed
+
+- Preserve the dark background of black bar.
+- In very dark themes, replace the black bar with a dark grey shade to
+  maintain contrast.
+
+
 0.3.0 (2026-03-07)
 ------------------
 
