@@ -62,12 +62,12 @@ This section presents a few screenshots of the various skins available.
 
 [![HN Terminal Skin][terminal]][terminal]
 
-[select]: https://susam.github.io/blob/img/hnskins/0.4.0/select.png
-[cafe]: https://susam.github.io/blob/img/hnskins/0.4.0/cafe.png
-[courier]: https://susam.github.io/blob/img/hnskins/0.4.0/courier.png
-[london]: https://susam.github.io/blob/img/hnskins/0.4.0/london.png
-[midnight]: https://susam.github.io/blob/img/hnskins/0.4.0/midnight.png
-[terminal]: https://susam.github.io/blob/img/hnskins/0.4.0/terminal.png
+[select]: https://susam.github.io/blob/img/hnskins/0.3.0/select.png
+[cafe]: https://susam.github.io/blob/img/hnskins/0.3.0/cafe.png
+[courier]: https://susam.github.io/blob/img/hnskins/0.3.0/courier.png
+[london]: https://susam.github.io/blob/img/hnskins/0.3.0/london.png
+[midnight]: https://susam.github.io/blob/img/hnskins/0.3.0/midnight.png
+[terminal]: https://susam.github.io/blob/img/hnskins/0.3.0/terminal.png
 
 
 Licence
